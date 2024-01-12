@@ -186,6 +186,70 @@
 // console.log(sum);
 
 
+// js-13-11
+
+// Array.prototype.map = function(){
+
+//   const numbers = [65, 44, 12, 4];
+//   const newArr = numbers.map(myFunction)
+  
+//   function myFunction(num) {
+//     return num * 10;
+//   }
+// }
+// console.log(number);
+
+// js-13-12
+
+// Array.prototype.very = function(){
+
+// //   const numbers = [65, 44, 12, 4];
+// //   const newArr = numbers.very(myFunction)
+  
+// //   function myFunction(num) {
+// //     return num * 10;
+// //   }
+// // }
+// // console.log(number);
+
+// js-13-13
+
+// Array.prototype.reduce = function (){
+//   const numbers = [45, 4, 9, 16, 25];
+// let sum = numbers.reduce(myFunction);
+
+// document.getElementById("demo").innerHTML = "The sum is " + sum;
+
+// function myFunction(total, value, index, array) {
+//   return total + value;
+// }
+// }
+
+// js-13-14
+
+// Array.prototype.findIndex = function{
+//   const ages = [3, 10, 18, 20];
+
+// ages.findIndex(checkAge);
+
+// function checkAge(age) {
+//   return age > 18;
+// }
+// }
+// console.log(ages);
+
+// js-13-15
+
+// Array.prototype.splice = function{
+//   const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// fruits.splice(2, 0, "Lemon", "Kiwi");
+// }
+
+// console.log(fruits);
+
+// js-13-16
+
 
 
 
