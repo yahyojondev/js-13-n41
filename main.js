@@ -250,6 +250,112 @@
 
 // js-13-16
 
+// let arr = new Animal[name,speed,limite.age];
+
+// Array.prototype.animal = function (){
+//  this.name = name;
+//  this.speed =speed;
+//  this.limite.age = limite.age;
+// }
+
+// let res = arr.sum();
+// console.log(arr);
+
+// console.log(res);
+
+// console.log(["bo'ri","100km/soat","100 years"].animal());
+
+
+// js-13-17
+
+// function student(name, course, years,university) {
+//   this.name = name;
+//   this.course = course;
+//   this.years = years;
+//   this.university= university
+// }
+
+// let p1 = new student("yahyojon", 3, "2023","TATU");
+
+// // function getstudent(name, course, years,university) {
+// //   return {
+// //     name,
+// //     course,
+// //     years,
+//     // university
+// //   };
+// // }
+
+// // let p1 = getstudent("yahyojon", 3, "2023","TATU");
+
+// console.log(p1);
+
+// js-13-18
+
+// function person(name, age, currentYear) {
+//   this.name = name;
+//   this.age = age;
+//   this.currentYear = currentYear;
+// }
+
+// let p1 = new person("yahyojon", 21, "2023");
+
+// // function getperson(name, age, currentYear) {
+// //   return {
+// //     name,
+// //     age,
+// //     currentYear,
+// //   };
+// // }
+
+// // let p1 = getperson(""yahyojon", 21, "2023");
+
+// console.log(p1);
+
+// js-13-19
+
+// function person(name, salary, workName) {
+//   this.name = name;
+//   this.salary = salary;
+//   this.workName = workName;
+// }
+
+// let p1 = new person("yahyojon", 2000$, "developer");
+
+// // function getperson(name, salary, workName) {
+// //   return {
+// //     name,
+// //     salart,
+// //     workname,
+// //   };
+// // }
+
+// // let p1 = getperson("yahyojon", 2000$, "developer");
+
+// console.log(p1);
+
+// js-13-20
+
+// function person(width,height) {
+//   this.width = width;
+//   this.height = height;
+// }
+
+// let p1 = new person("200px", 200px);
+
+// // function getperson(width,height) {
+// //   return {
+// //     width,
+// //     height,
+// //   };
+// // }
+
+// // let p1 = getperson("200px", 200px);
+
+// console.log(p1);
+
+
+
 
 
 
